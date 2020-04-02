@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+</head>
+<header>
+    <nav class="menu">
+        <div class="container">
+            <div class="row justify-content-center justify-content-sm-between">
+                <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                    <div class="category">
+                        <ul>
+                            <li><a href="#">Категории</a>
+                                <ul>
+                                    <li><a href="#">Телефоны</a>
+                                        <ul>
+                                            <li><a href="#" class="category-item category-item__mobile" data-category="mobile">Apple</a></li>
+                                            <li><a href="#" class="category-item category-item__mobile" data-category="mobile">Android</a></li>
+                                            <li><a href="index.html" class="category-item category-item__sport" data-category="sport">Другое</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Компьютеры</a>
+                                        <ul>
+                                            <li><a href="#" class="category-item category-item__pc" data-category="pc">Ноутбуки</a></li>
+                                            <li><a href="#" class="category-item category-item__pc" data-category="pc">ПК</a></li>
+                                            <li><a href="#" class="category-item category-item__sport" data-category="sport">Другое</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Электроника</a>
+                                        <ul>
+                                            <li><a href="#" class="category-item category-item__home" data-category="home">Лампы</a></li>
+                                            <li><a href="#" class="category-item category-item__electron" data-category="electron">Часы</a></li>
+                                            <li><a href="#" class="category-item category-item__sport" data-category="sport">Другое</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <nav>
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <a href="#" class="nav-elements" id="cart">
+                    <span class="counter">0</span>
+                </a>
+                <a href="#" class="nav-elements" id="wishlist">
+                    <span class="counter">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body id="body">
+    <div class="container">
+        <div class="row justify-content-center justify-content-sm-between">
+            <div class="col-12 col-sm-6 col-md-9 col-xl-10">
+                <div class="container">
+                    <div class="row no-gutters goods-wrapper justify-content-center" id="qwe">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="cart">
+        <div class="cart-body">
+            <div class="cart-head">
+                <div class="cart-title">Корзина</div>
+                <div class="cart-total">Общая сумма: <span>0</span> руб</div>
+            </div>
+            <div class="cart-wrapper">
+                <div id="cart-empty">
+                    Ваша корзина пока пуста
+                </div>
+                <div class="goods">
+                    <div class="goods-img-wrapper">
+                        <img class="goods-img" src="images/temp.png" alt="">
+                    </div>
+                    <div class="goods-description">
+                        <h2 class="goods-title">Название товара</h2>
+                        <p class="goods-price">100000 ₽</p>
+                    </div>
+                    <div class="goods-price-count">
+                        <div class="goods-trigger">
+                            <button class="goods-add-wishlist"></button>
+                            <button class="goods-delete"></button>
+                        </div>
+                        <div class="goods-count">1</div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary cart-confirm">Оформить заказ</button>
+            <div class="cart-close">
+            </div>
+        </div>
+    </div>
+    <div class="title-ovner">
+        <div class="title-body">
+            <div class="title-head">
+                <div class="title-title">Новое имя</div>
+            </div>
+            <div class="title-wrapper">
+                <div id="title-empty">
+                    <div class="form">
+                        <div class="group">
+                            <form action="server">
+                                <input type="text" id="name" required>
+                                <span class="bar"></span>
+                                <label>Введите новое имя</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary title-confirm" id="formsub">Готово</button>
+            </form>
+            <div class="title-close">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+<script src="main.js"></script>
+
+</html>
