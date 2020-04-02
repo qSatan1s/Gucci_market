@@ -91,7 +91,7 @@
  }
 
  #cart {
-     background-image: url(../images/icons.png);
+     background-image: url(images/icons.png);
      background-position: 0 -2895px
  }
 
@@ -207,7 +207,7 @@
  }
 
  #wishlist {
-     background-image: url(../images/icons.png);
+     background-image: url(images/icons.png);
      background-position: 1px -3592px
  }
 
@@ -216,7 +216,7 @@
  }
 
  #cart {
-     background-image: url(../images/icons.png);
+     background-image: url(images/icons.png);
      background-position: 0 -2895px;
      left: 85%;
  }
@@ -246,7 +246,7 @@
      margin: 0 auto;
      text-align: center;
      background-color: #e5e6eb;
-     background-image: url(../images/temp.png);
+     background-image: url(images/temp.png);
      background-size: 220px 220px;
      width: 220px;
      height: 220px;
@@ -328,7 +328,7 @@
  .card-add-wishlist {
      width: 32px;
      height: 32px;
-     background-image: url(../images/icons.png);
+     background-image: url(images/icons.png);
      background-position: 4px -2588px;
      border-radius: 50%;
      text-align: center;
@@ -489,7 +489,7 @@
      width: 32px;
      height: 32px;
      background-color: transparent;
-     background-image: url(../images/icons.png);
+     background-image: url(images/icons.png);
      background-position: 4px -2589px;
      border-radius: 50%;
      text-align: center;
@@ -505,7 +505,7 @@
      width: 32px;
      height: 32px;
      background-color: transparent;
-     background-image: url(../images/icons.png);
+     background-image: url(images/icons.png);
      background-position: 8px -1865px;
      border-radius: 50%;
      text-align: center;
